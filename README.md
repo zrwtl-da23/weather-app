@@ -20,5 +20,6 @@ A simple weather application built with Node.js / Express (or whichever stack yo
 
 
 
+Disclaimer: This application is created for learning purpose
 
 
