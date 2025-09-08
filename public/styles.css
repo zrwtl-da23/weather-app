@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #f9f9f9;
+}
+h2 {
+  color: #333;
+}
+section {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background: #f0f0f0;
+}
+td, th {
+  text-align: center;
+}
+
+/* Works in Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  height: 8px;  /* scrollbar thickness (horizontal bar) */
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e7eb; /* Tailwind gray-200 */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #14b8a6; /* Tailwind teal-500 */
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0d9488; /* Darker teal on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #14b8a6 #e5e7eb;
+}
+
