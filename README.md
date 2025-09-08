@@ -15,8 +15,9 @@ A simple weather application built with Node.js / Express (or whichever stack yo
 
 ## Screenshots
 
-![App Screenshot](./assets/screenshot%20%281%29.png)
-![App Screenshot](./assets/screenshot%20%282%29.png)
+![App Screenshot](./assets/screenshot-1.png)
+![App Screenshot](./assets/screenshot-2.png)
+
 
 
 
